@@ -12,9 +12,13 @@
 		38A0AB781F24D81A00EDB8D5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 38A0AB761F24D81A00EDB8D5 /* Main.storyboard */; };
 		38A0AB7A1F24D81A00EDB8D5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 38A0AB791F24D81A00EDB8D5 /* Assets.xcassets */; };
 		38A0AB7D1F24D81A00EDB8D5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 38A0AB7B1F24D81A00EDB8D5 /* LaunchScreen.storyboard */; };
+		38A0AB851F24D83000EDB8D5 /* CustomImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38A0AB841F24D83000EDB8D5 /* CustomImageView.swift */; };
+		38A0AB871F25174900EDB8D5 /* CircularLoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38A0AB861F25174900EDB8D5 /* CircularLoadingView.swift */; };
+		AA4AE904A702F1431C7FEFB8 /* Pods_ProgressView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B9597ACF35B1671040F60A5 /* Pods_ProgressView.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2646B1539399884CBD99D828 /* Pods-ProgressView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ProgressView.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ProgressView/Pods-ProgressView.debug.xcconfig"; sourceTree = "<group>"; };
 		38A0AB6F1F24D81A00EDB8D5 /* ProgressView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProgressView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		38A0AB721F24D81A00EDB8D5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		38A0AB741F24D81A00EDB8D5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +26,10 @@
 		38A0AB791F24D81A00EDB8D5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		38A0AB7C1F24D81A00EDB8D5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		38A0AB7E1F24D81A00EDB8D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		38A0AB841F24D83000EDB8D5 /* CustomImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomImageView.swift; sourceTree = "<group>"; };
+		38A0AB861F25174900EDB8D5 /* CircularLoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircularLoadingView.swift; sourceTree = "<group>"; };
+		84EFFCF1B91F11284D8BB187 /* Pods-ProgressView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ProgressView.release.xcconfig"; path = "Pods/Target Support Files/Pods-ProgressView/Pods-ProgressView.release.xcconfig"; sourceTree = "<group>"; };
+		8B9597ACF35B1671040F60A5 /* Pods_ProgressView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ProgressView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +37,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AA4AE904A702F1431C7FEFB8 /* Pods_ProgressView.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +49,8 @@
 			children = (
 				38A0AB711F24D81A00EDB8D5 /* ProgressView */,
 				38A0AB701F24D81A00EDB8D5 /* Products */,
+				72A965294908941A3DA33B09 /* Pods */,
+				5BEE71DF271B239B7CB723FD /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -60,8 +71,27 @@
 				38A0AB791F24D81A00EDB8D5 /* Assets.xcassets */,
 				38A0AB7B1F24D81A00EDB8D5 /* LaunchScreen.storyboard */,
 				38A0AB7E1F24D81A00EDB8D5 /* Info.plist */,
+				38A0AB841F24D83000EDB8D5 /* CustomImageView.swift */,
+				38A0AB861F25174900EDB8D5 /* CircularLoadingView.swift */,
 			);
 			path = ProgressView;
+			sourceTree = "<group>";
+		};
+		5BEE71DF271B239B7CB723FD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8B9597ACF35B1671040F60A5 /* Pods_ProgressView.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		72A965294908941A3DA33B09 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2646B1539399884CBD99D828 /* Pods-ProgressView.debug.xcconfig */,
+				84EFFCF1B91F11284D8BB187 /* Pods-ProgressView.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +101,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 38A0AB811F24D81A00EDB8D5 /* Build configuration list for PBXNativeTarget "ProgressView" */;
 			buildPhases = (
+				3A4101EE6E37439E43C428C0 /* [CP] Check Pods Manifest.lock */,
 				38A0AB6B1F24D81A00EDB8D5 /* Sources */,
 				38A0AB6C1F24D81A00EDB8D5 /* Frameworks */,
 				38A0AB6D1F24D81A00EDB8D5 /* Resources */,
+				881396A3B63F7FE2910E7556 /* [CP] Embed Pods Frameworks */,
+				42AC7CFFB932FD33A2AA2108 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -130,12 +163,62 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		3A4101EE6E37439E43C428C0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		42AC7CFFB932FD33A2AA2108 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ProgressView/Pods-ProgressView-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		881396A3B63F7FE2910E7556 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ProgressView/Pods-ProgressView-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		38A0AB6B1F24D81A00EDB8D5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				38A0AB751F24D81A00EDB8D5 /* ViewController.swift in Sources */,
+				38A0AB851F24D83000EDB8D5 /* CustomImageView.swift in Sources */,
+				38A0AB871F25174900EDB8D5 /* CircularLoadingView.swift in Sources */,
 				38A0AB731F24D81A00EDB8D5 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -267,26 +350,32 @@
 		};
 		38A0AB821F24D81A00EDB8D5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2646B1539399884CBD99D828 /* Pods-ProgressView.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = TPWG8G6ELX;
 				INFOPLIST_FILE = ProgressView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.nunev.ProgressView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
 		38A0AB831F24D81A00EDB8D5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 84EFFCF1B91F11284D8BB187 /* Pods-ProgressView.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = TPWG8G6ELX;
 				INFOPLIST_FILE = ProgressView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.nunev.ProgressView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
@@ -310,6 +399,7 @@
 				38A0AB831F24D81A00EDB8D5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
