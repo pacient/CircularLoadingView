@@ -6,4 +6,4 @@
 
 # Preview
 
-![alt Circlular Loading View Preview](http://gph.is/2uyZvle)
+![alt Circlular Loading View Preview](https://media.giphy.com/media/xTkcEBDtvly8XClf5S/giphy.gif)
