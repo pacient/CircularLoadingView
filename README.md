@@ -6,4 +6,4 @@
 
 # Preview
 
-![alt Circlular Loading View Preview](https://im3.ezgif.com/tmp/ezgif-3-b5ce1fb8a5.gif)
+![alt Circlular Loading View Preview](http://gph.is/2uyZvle)
